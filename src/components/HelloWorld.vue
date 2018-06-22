@@ -4,10 +4,10 @@
           <el-aside width="200px">Aside</el-aside>
           <el-container>
             <el-header>
+              <i class="el-icon-loading"></i>
                <i class="el-icon-edit"></i>
                <i class="el-icon-share"></i>
                <i class="el-icon-delete"></i>
-               <i class="el-icon-loading"></i>
                <i class="el-icon-info"></i>
                <i class="el-icon-error"></i>
                <i class="el-icon-warning"></i>
