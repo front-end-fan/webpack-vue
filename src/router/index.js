@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Table from '@/components/Table'
 import Form from '@/components/Form'
+import Echarts from '@/components/Echarts'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/form',
       name: 'Form',
       component: Form
+    },
+    {
+      path: '/echarts',
+      name: 'Echarts',
+      component: Echarts
     }
   ]
 })
